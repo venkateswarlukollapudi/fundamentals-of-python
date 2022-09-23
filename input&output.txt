@@ -1,0 +1,193 @@
+1.Hello World
+
+This is the very first program in the programming language.,
+this file contains the declaration of print function. print is used to display the message
+as well as the value on the standard output device (monitor), use of print function is very easy,
+you have to just pass the string (message) that you want to print on the screen within inverted 
+commas ("message")
+
+code:
+print("Hello World")
+
+Input:
+
+output:
+Hello World
+
+
+
+2.Hello World with tab
+
+There are few escape sequences which is used for formatting the output in the python  programming 
+language, you have to use \t escape sequence in order to provide 4 to 5 spaces between words in
+ the output console. Enter the escape sequence directly into the print statement's within the 
+inverted commas ("mes\tsage").
+
+Code:
+print("hello world \t hello world")
+
+Input:
+
+
+Output:
+Hello World    Hello World
+
+
+
+3.Hello World with new line
+
+There are few escape sequences which is used for formatting the output in programming language, 
+you have to use \n escape sequence in order to provide a new line between words in the output console.
+ Enter the escape sequence directly into the print statement's within the inverted commas ("mes\nsage").
+
+
+Code:
+print("hello world\nhello world")
+
+Input:
+
+Output:
+hello world
+hello world
+
+
+
+
+4.Integer Input
+
+Python programming has several in-built functions to perform input and output tasks. Two commonly used functions
+for I/O (Input/Output) are print and input(). Write a program to get an integer as input and print it. 
+The input() function reads formatted input from the keyboard. When the user enters an integer, it is stored in
+variable test Integer. NOTE: Bold letters or words are Input and rest are output statements.
+
+Code:
+a = int(input())
+print(a)
+
+Input:
+5
+
+Output:
+5
+
+
+
+5.Float Input
+
+Python programming has several in-built functions to perform input and output tasks. Two commonly used functions
+for I/O (Input/Output) are print and input(). Write a program to get float as input and print it. The input()
+function reads formatted input from the keyboard. When the user enters a float, it is stored in variable test Float.
+Use '%.2f' in the print() to display float value with 2 precisions. NOTE: Bold letters or words are Input and rest
+are output statements.
+
+
+Code:
+
+a = float(input())
+print('%.2f'%a)
+
+Input :
+
+56.2425
+
+Output :
+
+56.24
+
+
+
+6.Character Input
+
+Python programming has several in-built functions to perform input and output tasks. Two commonly used functions for
+ I/O (Input/Output) are print and input().. Write a program to get a character as input and print it. The input() 
+function reads formatted input from the keyboard. When the user enters a character, it is stored in variable test 
+Character. NOTE: Bold letters or words are Input and rest are output statements.
+
+
+Code:
+
+a = input()
+print(a)
+
+
+Input:
+
+z
+
+Output:
+
+z
+
+
+
+
+7.String Input
+
+Python programming has several in-built functions to perform input and output tasks. Two commonly used functions for
+I/O (Input/Output) are print() and input(). Write a program to get the string as input and print it. The input() 
+function reads formatted input from the keyboard.
+
+
+Code:
+
+a = input()
+print(a)  
+
+Input :
+
+Programmer
+
+Output :
+
+Programmer
+
+
+
+
+8.Ascii-I
+
+ASCII - American Standard Code for Information Interchange. Write a program to get a character as input and print
+it's ASCII value. When a character is entered, the character itself  stored.  And when we displayed that value using
+"int()"  type casting , the entered character is displayed as Ascii value. NOTE: Bold letters or words are Input and
+rest are output statements.
+
+
+Code:
+
+a = input()
+asc = ord(a)
+print(asc)
+
+Input :
+
+g
+
+Output:
+
+103
+
+
+
+
+9.Ascii-II
+
+ASCII - American Standard Code for Information Interchange. Write a program to get a number(ASCII) as input and print
+ its equivalent character. You can display a character if you know ASCII code of that character.
+
+
+Code:
+
+ a = int(input())
+print(chr(a))
+
+Input:
+
+103
+
+Output:
+
+g
+
+
+
+
